@@ -1,4 +1,4 @@
-# Intorduction
+# Introduction
 Simple guide on how to download files from Datahub
 
 ## Environment

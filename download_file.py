@@ -20,7 +20,7 @@ parser = argparse.ArgumentParser(description='Information on file location')
 logger.info('Setting console arguments with argparse')
 parser.add_argument('--file_name', type=str, help='File name')
 parser.add_argument('--container_name', type=str, help='Container name')
-parser.add_argument('--directory_names', type=str, nargs="*", help='List with names of nested directories starting from root.')
+parser.add_argument('--directory_names', type=str, nargs="*", help='List with names of nested directories starting from root.', default=[])
 parser.add_argument('--storage_account', type=str, help='Name of Storage account')
 
 args = parser.parse_args()
